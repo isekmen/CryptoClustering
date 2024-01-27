@@ -13,16 +13,16 @@ You’ll use your knowledge of Python and unsupervised learning to predict if cr
 
         * Create a list with the number of k values from 1 to 11
         * Create an empty list to store the inertia values.
-        * Create a `for` loop to compute the inertia with each possible value of `k`.
+        * Create a for loop to compute the inertia with each possible value of k.
         * Create a dictionary with the data to plot the Elbow curve.
-        * Plot a line chart with all the inertia values computed with the different values of `k` to visually identify the optimal value for `k`.
+        * Plot a line chart with all the inertia values computed with the different values of k to visually identify the optimal value for k.
 
 
 ## Cluster Cryptocurrencies with K-means Using the Original Scaled Data
 
 * Use the following steps to cluster the cryptocurrencies for the best value for `k` on the PCA data:
 
-        * Initialize the K-means model with the best value for `k`.
+        * Initialize the K-means model with the best value for k.
         * Fit the K-means model using the the PCA data.
         * Predict the clusters to group the cryptocurrencies using the PCA data.
         * Create a copy of the original data and add a new column with the predicted clusters.
@@ -42,9 +42,9 @@ You’ll use your knowledge of Python and unsupervised learning to predict if cr
 
         * Create a list with the number of k-values from 1 to 11
         * Create an empty list to store the inertia values.
-        * Create a `for` loop to compute the inertia with each possible value of `k`.
+        * Create a for loop to compute the inertia with each possible value of k.
         * Create a dictionary with the data to plot the Elbow curve.
-        * Plot a line chart with all the inertia values to visually identify the optimal value for `k`.
+        * Plot a line chart with all the inertia values to visually identify the optimal value for k.
 
 
 ## Cluster Cryptocurrencies with K-means Using the PCA Data
